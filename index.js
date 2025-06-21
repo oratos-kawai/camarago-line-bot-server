@@ -89,7 +89,7 @@ app.post("/webhook", async (req, res) => {
       }
       
       // 通常のシンプルな応答
-      let replyText = "お問い合わせありがとうございます！";
+      let replyText = "お問い合わせありがとうございます！担当者が確認次第、返事をさせていただきます。";
 
 
       await axios.post(
