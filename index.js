@@ -25,7 +25,7 @@ app.post("/webhook", async (req, res) => {
       if (userMessage.includes(flexTrigger)) {
         const flexMessage = {
           type: "flex",
-          altText: "ご希望の内容をお選びください",
+          altText: "お問い合わせありがとうございます。以下の当てはまるものを選択してください。",
           contents: {
             type: "bubble",
             body: {
@@ -35,7 +35,7 @@ app.post("/webhook", async (req, res) => {
               contents: [
                 {
                   type: "text",
-                  text: "ご希望の内容をお選びください",
+                  text: "お問い合わせありがとうございます。以下の当てはまるものを選択してください",
                   weight: "bold",
                   size: "md",
                   wrap: true
