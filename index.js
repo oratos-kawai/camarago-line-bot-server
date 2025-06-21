@@ -35,7 +35,7 @@ app.post("/webhook", async (req, res) => {
               contents: [
                 {
                   type: "text",
-                  text: "お問い合わせありがとうございます。以下の当てはまるものを選択してください",
+                  text: "お問い合わせありがとうございます。以下の当てはまるものを選択してください。",
                   weight: "bold",
                   size: "md",
                   wrap: true
